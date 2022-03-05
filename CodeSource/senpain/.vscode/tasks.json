@@ -1,0 +1,34 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "flutter",
+			"command": "flutter",
+			"args": [
+				"build",
+				"apk"
+			],
+			"group": "build",
+			"problemMatcher": [],
+			"label": "flutter: flutter build apk"
+		},
+		{
+			"type": "dart",
+			"command": "dartdoc",
+			"args": [],
+			"problemMatcher": [],
+			"label": "dart: dartdoc"
+		},
+		{
+			"type": "flutter",
+			"command": "flutter",
+			"args": [
+				"build",
+				"ios"
+			],
+			"group": "build",
+			"problemMatcher": [],
+			"label": "flutter: flutter build ios"
+		}
+	]
+}
